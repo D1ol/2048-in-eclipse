@@ -55,7 +55,6 @@ export default function Home() {
       </div>
       <div>
         <SaveForm />
-        <GameSelector />
       </div>
       <footer>
         <Socials />
