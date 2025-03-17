@@ -1,13 +1,10 @@
 import Head from "next/head";
 import Board from "@/components/board";
-import Score from "@/components/score";
-import Timer from "@/components/timer";
 import SaveForm from "@/components/saveForm";
 import DropdownMenu from "@/components/dropdown";
 import styles from "@/styles/index.module.css";
 import { useRouter } from "next/router";
 import Socials from "@/components/socials";
-import GameSelector from "@/components/gameSelector";
 import ScoreTimer from "@/components/scoreTimer";
 
 
