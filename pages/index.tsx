@@ -18,7 +18,7 @@ export default function Home() {
     <div className={styles.twenty48}>
       <Head>
         <title>Play 2048</title>
-        <meta name="description" content="Friendly 2048 Superform theme game" />
+        <meta name="description" content="Friendly 2048 Eclipse theme game" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="favicon.ico" />
         <link
