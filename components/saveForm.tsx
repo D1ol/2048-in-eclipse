@@ -23,12 +23,10 @@ const SaveForm: React.FC<NameInputProps> = (props) => {
   const [error, setError] = useState<string>("");
   const [statusState, dispatch] = useReducer(statusReducer, initialState);
 
-  // Используем useRef для хранения данных контекста
   const scoreRef = useRef(score);
   const statusRef = useRef(status);
   const timeRef = useRef(time);
 
-  // Обновляем ref при изменении контекста
   useEffect(() => {
     scoreRef.current = score;
     statusRef.current = status;
@@ -122,7 +120,7 @@ const SaveForm: React.FC<NameInputProps> = (props) => {
           ? "Saving..."
           : statusState.subscribed
             ? "Save score"
-            : "Follow on X"}
+            : "Save / Follow on X"}
       </button>
       {error && <p style={{ color: "red" }}>{error}</p>}
     </div>
